@@ -1,0 +1,75 @@
+.hero {
+    background-color: #ffb8ca;
+}
+.hero_main_title {
+    font-family: var(--second-family);
+font-weight: 400;
+font-size: 38px;
+letter-spacing: 0.04em;
+text-transform: uppercase;
+color: #fff;
+}
+.hero_main_title {
+    font-family: var(--second-family);
+font-weight: 400;
+font-size: 38px;
+letter-spacing: 0.04em;
+text-transform: uppercase;
+color: #fff;
+width: 277px;
+height: 137px;
+}
+.hero_main_title span {
+    font-size: 58px;
+line-height: 0.9;
+color: #d41443;
+}
+.hero_main_list_item {
+    display: flex;
+        font-family: var(--font-family);
+font-weight: 400;
+font-size: 14px;
+text-align: center;
+border-radius: 20px;
+align-items: center;
+justify-content: center;
+}
+.hero_main_list_item:nth-child(1) {
+width: 104px;
+height: 40px;
+background-color: #d41443;
+color: #fff;
+}
+.hero_main_list_item:nth-child(2) {
+width: 138px;
+height: 40px;
+background-color: #fff;
+color: #d41443;
+}
+.hero_main_list_item_button {
+    border: none;
+    background-color: transparent;
+}
+.hero_bioeco_text {
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 14px;
+line-height: 1.4;
+color: #fff;
+}
+.hero_number_list_item_number {
+    font-family: var(--second-family);
+font-weight: 400;
+font-size: 46px;
+letter-spacing: 0.04em;
+text-transform: uppercase;
+text-align: right;
+color: #d41443;
+}
+.hero_number_list_item_text {
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 14px;
+text-align: right;
+color: #fff;
+}

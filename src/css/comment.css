@@ -1,0 +1,76 @@
+.comment_card_text {
+    font-family: var(--font-family);
+font-weight: 500;
+font-size: 16px;
+line-height: 1.86;
+letter-spacing: 0.04em;
+text-align: center;
+color: #000;
+}
+.comment_card_point {
+    font-family: var(--font-family);
+font-weight: 500;
+font-size: 20px;
+line-height: 1.86;
+text-align: center;
+color: #000;
+}
+.comment_list_item_title {
+    font-family: var(--font-family);
+font-weight: 500;
+font-size: 16px;
+line-height: 1.86;
+letter-spacing: 0.04em;
+text-align: center;
+color: #fff;
+}
+.comment_list_item_point {
+    font-family: var(--font-family);
+font-weight: 500;
+font-size: 16px;
+line-height: 1.86;
+letter-spacing: 0.04em;
+color: #000;
+}
+.comment_list_item_text {
+    font-family: var(--font-family);
+font-weight: 500;
+font-size: 16px;
+line-height: 1.83;
+letter-spacing: 0.04em;
+color: #907e82;
+}
+.comment_list_item_days {
+   font-family: var(--font-family);
+font-weight: 500;
+font-size: 16px;
+line-height: 1.86;
+letter-spacing: 0.04em;
+color: #000;
+}
+.comment_list_item_time {
+    font-family: var(--font-family);
+font-weight: 500;
+font-size: 16px;
+line-height: 1.86;
+color: #ffa5ba;
+}
+.comment_contact_list_item_link {
+    font-family: var(--font-family);
+font-weight: 500;
+font-size: 16px;
+line-height: 183%;
+color: #907e82;
+}
+.comment_button_list_item_button {
+    border-radius: 22px;
+width: 198px;
+height: 44px;
+font-family: var(--font-family);
+font-weight: 700;
+font-size: 16px;
+text-align: center;
+color: #fff;
+border: none;
+background: #d41342;
+}

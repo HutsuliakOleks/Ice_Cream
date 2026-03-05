@@ -1,0 +1,62 @@
+.tradition_title {
+    font-family: var(--second-family);
+font-weight: 400;
+font-size: 30px;
+letter-spacing: 0.04em;
+text-transform: uppercase;
+text-align: center;
+color: #ffa5ba;
+}
+.tradition_big_title {
+font-family: var(--second-family);
+font-weight: 400;
+font-size: 58px;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+text-align: center;
+color: #d41443;
+}
+.tradition_card_text {
+    font-family: var(--font-family);
+font-weight: 500;
+font-size: 16px;
+line-height: 176%;
+letter-spacing: 0.04em;
+color: #000;
+}
+.tradition_card_text2 {
+    font-family: var(--font-family);
+font-weight: 500;
+font-size: 14px;
+line-height: 194%;
+letter-spacing: 0.04em;
+color: #907e82;
+}
+.tradition_card_button {
+    border-radius: 22px;
+width: 176px;
+height: 44px;
+font-family: var(--font-family);
+font-weight: 700;
+font-size: 16px;
+text-align: center;
+color: #d41443;
+border: none;
+background: #fff;
+}
+.tradition_list_item_number {
+    font-family: var(--second-family);
+font-weight: 400;
+font-size: 58px;
+letter-spacing: 0.04em;
+text-align: right;
+color: #d41443;
+}
+.tradition_list_item_text {
+    font-family: var(--font-family);
+font-weight: 700;
+font-size: 16px;
+line-height: 176%;
+letter-spacing: 0.02em;
+color: #000;
+}

@@ -1,0 +1,36 @@
+.products_title {
+    font-family: var(--second-family);
+font-weight: 400;
+font-size: 30px;
+letter-spacing: 0.04em;
+text-transform: uppercase;
+text-align: center;
+color: #ffa5ba;
+}
+.products_big_title {
+        font-family: var(--second-family);
+        font-weight: 400;
+    font-size: 58px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #d41443;
+}
+.products_list_item_title {
+    font-family: var(--second-family);
+font-weight: 400;
+font-size: 30px;
+letter-spacing: 0.04em;
+text-transform: uppercase;
+text-align: center;
+color: #fff;
+}
+.products_list_item_text {
+    font-family: var(--font-family);
+font-weight: 700;
+font-size: 16px;
+line-height: 176%;
+letter-spacing: 0.04em;
+text-align: center;
+color: #fff;
+}

@@ -1,0 +1,32 @@
+.header {
+    width: 1280px;
+    padding-top: 37px;
+    padding-bottom: 21px;
+        background-color: #ffb8ca;
+}
+.header_position {
+    display: flex;
+    align-items: center;
+}
+.navigation_list {
+    display: flex;
+}
+.navigation_link {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 16px;
+    color: #fff;
+}
+
+.header_button {
+    border-radius: 22px;
+    width: 159px;
+    height: 44px;
+    background-color: white;
+    border: none;
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 16px;
+    text-align: center;
+    color: #d41443;
+}
