@@ -1,54 +1,79 @@
 .hero {
     background-color: #ffb8ca;
+    background-image: url("../images/icecreammobile@1x.png"), url("../images/circlemobile@1x.png");
+    background-repeat: no-repeat;
+    background-position-x: 125px, 50px;
+    background-position-y: bottom, 83px;
+    padding-top: 110px;
+    padding-bottom: 160px;
+    @media screen and (min-width: 768px) {
+        background-image: url("../images/icecreamtablet@1x.png"), url("../images/circletablet@1x.png");
+        background-repeat: no-repeat;
+    background-position-x: 375px, 300px;
+    background-position-y: bottom, 50px;
+    }
 }
 .hero_main_title {
-    font-family: var(--second-family);
+   font-family: var(--second-family);
 font-weight: 400;
-font-size: 38px;
+font-size: 26px;
 letter-spacing: 0.04em;
 text-transform: uppercase;
 color: #fff;
-}
-.hero_main_title {
-    font-family: var(--second-family);
-font-weight: 400;
-font-size: 38px;
-letter-spacing: 0.04em;
-text-transform: uppercase;
-color: #fff;
-width: 277px;
-height: 137px;
+width: 218px;
+height: 106px;
+margin-bottom: 19px;
 }
 .hero_main_title span {
-    font-size: 58px;
-line-height: 0.9;
+font-size: 48px;
+line-height: 0.96;
 color: #d41443;
 }
-.hero_main_list_item {
-    display: flex;
-        font-family: var(--font-family);
+.hero_main_buttons {
+    @media screen and (min-width: 768px) {
+        margin-bottom: 36px;
+    }
+}
+.hero_main_buttons_button {
+font-family: var(--font-family);
 font-weight: 400;
-font-size: 14px;
+font-size: 8px;
 text-align: center;
+color: #fff;
 border-radius: 20px;
 align-items: center;
 justify-content: center;
+border: none;
 }
-.hero_main_list_item:nth-child(1) {
-width: 104px;
-height: 40px;
+.hero_main_buttons_button:nth-child(1) {
+    width: 61.2px;
+height: 24px;
 background-color: #d41443;
 color: #fff;
 }
-.hero_main_list_item:nth-child(2) {
-width: 138px;
-height: 40px;
+.hero_main_buttons_button:nth-child(2) {
+width: 82.8px;
+height: 24px;
 background-color: #fff;
-color: #d41443;
+    color: #d41443;
 }
-.hero_main_list_item_button {
-    border: none;
-    background-color: transparent;
+.hero_icecream {
+    display: none;
+}
+.hero_bioeco {
+    display: none;
+    @media screen and (min-width: 768px) {
+        display: flex;
+    }
+}
+.hero_bioeco_container {
+    width: 115px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+.hero_number {
+    display: none;
 }
 .hero_bioeco_text {
     font-family: var(--font-family);
@@ -56,6 +81,9 @@ font-weight: 400;
 font-size: 14px;
 line-height: 1.4;
 color: #fff;
+@media screen and (min-width: 768px) {
+font-size: 8px;
+}
 }
 .hero_number_list_item_number {
     font-family: var(--second-family);

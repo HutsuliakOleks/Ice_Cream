@@ -1,8 +1,15 @@
+.tradition {
+    padding-top: 125px;
+    padding-bottom: 145px;
+    background-color: #fff5f6;
+    background-image: url("../images/milkthememobile@1x.png");
+    background-position-y: 600px;
+    background-repeat: no-repeat;
+}
 .tradition_title {
     font-family: var(--second-family);
 font-weight: 400;
-font-size: 30px;
-letter-spacing: 0.04em;
+font-size: 18px;
 text-transform: uppercase;
 text-align: center;
 color: #ffa5ba;
@@ -10,27 +17,33 @@ color: #ffa5ba;
 .tradition_big_title {
 font-family: var(--second-family);
 font-weight: 400;
-font-size: 58px;
-letter-spacing: 0.06em;
+font-size: 34px;
+letter-spacing: 0.04em;
 text-transform: uppercase;
 text-align: center;
 color: #d41443;
 }
+.tradition_card {
+    margin-bottom: 39px;
+}
+.tradition_card_image {
+    margin-bottom: 46px;
+}
 .tradition_card_text {
     font-family: var(--font-family);
 font-weight: 500;
-font-size: 16px;
-line-height: 176%;
-letter-spacing: 0.04em;
+font-size: 12px;
+line-height: 1.62;
 color: #000;
+margin-bottom: 47px;
 }
 .tradition_card_text2 {
     font-family: var(--font-family);
 font-weight: 500;
-font-size: 14px;
-line-height: 194%;
-letter-spacing: 0.04em;
+font-size: 12px;
+line-height: 1.62;
 color: #907e82;
+margin-bottom: 47px;
 }
 .tradition_card_button {
     border-radius: 22px;
@@ -43,20 +56,32 @@ text-align: center;
 color: #d41443;
 border: none;
 background: #fff;
+margin-bottom: 39px;
+}
+.tradition_list {
+    display: flex;
+    flex-direction: column;
+    row-gap: 38px;
+}
+.tradition_list_item_image {
+    margin-bottom: 16px;
 }
 .tradition_list_item_number {
     font-family: var(--second-family);
 font-weight: 400;
-font-size: 58px;
+font-size: 36px;
 letter-spacing: 0.04em;
-text-align: right;
 color: #d41443;
+margin-bottom: 16px;
 }
 .tradition_list_item_text {
     font-family: var(--font-family);
 font-weight: 700;
-font-size: 16px;
-line-height: 176%;
-letter-spacing: 0.02em;
+font-size: 12px;
+line-height: 1.7;
 color: #000;
+}
+.tradition_image {
+    position: relative;
+    top: 241px;
 }
